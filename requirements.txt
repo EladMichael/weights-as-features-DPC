@@ -1,0 +1,6 @@
+# Tested with Python 3.10 on macOS (Apple silicon), CPU only.
+torch==2.14.0
+numpy==2.2.6
+casadi==3.8.1        # IPOPT ships with the casadi wheel; only the MPC / optimum cells need it
+matplotlib==3.10.9
+jupyter
